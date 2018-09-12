@@ -1,10 +1,8 @@
 /*!
-    Title: Dev Portfolio Template
-    Version: 1.2.1
-    Last Change: 08/28/2017
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
+    Title: Dev Portfolio
+    Version: --
+    Last Change: 09/11/2018
+    Author: Drew Grubb
 
     Description: This file contains all the styles associated with the page
     that don't come from third party libraries. This file gets compiled using
@@ -132,12 +130,12 @@ body {
 }
 
 @keyframes dropHeader {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 header {
