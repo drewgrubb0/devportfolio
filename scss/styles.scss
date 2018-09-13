@@ -608,6 +608,13 @@ footer {
         color: $text;
         clear: both;
         font-weight: 500;
+        margin: 0 0 0 0;
+    }
+
+    h5 {
+        color: $text;
+        clear: both;
+        font-weight: 500;
         margin: 0 0 15px 0;
     }
 
@@ -619,6 +626,13 @@ footer {
 
     ul {
         padding: 0 0 0 15px;
+
+        h4{
+            color: $text;
+            clear: both;
+            font-weight: 500;
+            margin: 10px 0 0 0;
+        }
     }
 }
 
@@ -697,18 +711,25 @@ footer {
     text-align: center;
 
     h2 {
+        display: inline;
         color: $heading;
         margin-bottom: 50px;
     }
 
-    ul {
+    h3 {
         display: block;
+        color: $heading;
+        margin: 15px 0 10px 0;
+    }
+
+    ul {
+        display: inline;
         margin: 0 auto;
         padding: 0;
         max-width: 800px;
     }
 
-    li {
+    ul li {
         display: inline-block;
         margin: 7px;
         padding: 5px 10px;
