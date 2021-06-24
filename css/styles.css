@@ -373,6 +373,9 @@ footer {
     font-weight: 300;
     color: #7e8890;
     margin: 0 0 15px 0; }
+  .vtimeline-content h5 {
+    margin: 20px 0 10px 0;
+  }
   .vtimeline-content p {
     color: #74808a;
     font-size: 0.9em;
@@ -444,7 +447,7 @@ footer {
     color: #74808a;
     clear: both;
     font-weight: 500;
-    margin: 0 0 15px 0; }
+    margin: 0; }
   .education-block p, .education-block ul {
     margin: 0;
     color: #74808a;
@@ -496,8 +499,10 @@ footer {
     margin: 0 0 15px 0; }
   .project-info p {
     color: #74808a;
-    margin: 0 0 15px 0;
-    font-size: 0.9em; }
+    margin: 0 auto 15px auto;
+    font-size: 0.9em; 
+    max-width: 800px;
+  }
 
 .no-image .project-info {
   position: relative;
